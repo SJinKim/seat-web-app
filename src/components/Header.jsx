@@ -1,6 +1,8 @@
 import React from 'react'
 import { Navbar, Offcanvas, Container, Nav } from 'react-bootstrap'
 
+//implement moving between screens
+
 const Header = ({ title }) => {
   return (
     <Navbar bg='dark' variant='dark' expand={false}>
@@ -15,8 +17,9 @@ const Header = ({ title }) => {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className='justify-content-end flex-grow-1 pe-3'>
-              <Nav.Link href='#action1'>Home</Nav.Link>
-              <Nav.Link href='#action2'>Statistic</Nav.Link>
+              <Nav.Link href='/'>Home</Nav.Link>
+              <Nav.Link href='/seatscreen'>Seat</Nav.Link>
+              <Nav.Link href='/statistic'>Statistic</Nav.Link>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

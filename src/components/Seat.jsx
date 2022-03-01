@@ -3,7 +3,7 @@ import { MdOutlineEventSeat, MdEventSeat } from 'react-icons/md'
 
 const colors = ['blue', 'orange', 'green', 'purple']
 
-const Seat = ({ rowcount }) => {
+const Seat = () => {
   const [taken, setTaken] = useState(false)
   const [counter, setCounter] = useState(0)
   const [color, setColor] = useState()

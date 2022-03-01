@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col, Nav, Tab } from 'react-bootstrap'
-import { BiBookOpen } from 'react-icons/bi'
+import { BiDesktop } from 'react-icons/bi'
 import Hallinfo from '../components/Hallinfo'
 import Header from '../components/Header'
 import Seat from '../components/Seat'
@@ -25,7 +25,7 @@ const SeatScreen = () => {
       <Hallinfo />
       <div className='d-flex flex-column mt-4 mx-2 border border-dark'>
         <div className='mx-auto mb-2 fs-5'>
-          <BiBookOpen size={25} />
+          <BiDesktop size={25} />
           <div className='border border-dark' />
         </div>
         <Tab.Container id='left-tabs-example' defaultActiveKey='first'>
